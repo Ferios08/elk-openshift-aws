@@ -10,7 +10,7 @@ sudo oc new-app https://github.com/Ferios08/elk-openshift-aws --context-dir=kiba
 sudo oc expose service kibana
 
 # Elasticsearch
-sudo oc new-app https://github.com/aFerios08/elk-openshift-aws --context-dir=elasticsearch --name=elasticsearch
+sudo oc new-app https://github.com/Ferios08/elk-openshift-aws --context-dir=elasticsearch --name=elasticsearch
 
 # Logstash
 sudo oc new-app https://github.com/Ferios08/elk-openshift-aws --context-dir=logstash --name=logstash
